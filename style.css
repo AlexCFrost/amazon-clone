@@ -4,9 +4,12 @@
     box-sizing:border-box;
 }
 
-div{
+.head{
     margin: 0%;
     padding: 0%;
+    background-color:hsl(212, 29%, 10%);
+}
+.background{
     background-color:hsl(212, 29%, 10%);
 }
 
@@ -27,22 +30,25 @@ div{
     bottom: 93%;
     left: 20%;
 }
-
 .head4{
-    height: 8vh;
-    width: 10vw;
     position: absolute;
-    left: 80%;
+    left:81.5% ;
+    top: 2.8%;
 }
 
 .head5{
     height: 8vh;
     width: 8.5vw;
     position: absolute;
-    left: 90%;
+    left:84%;
 }
 
-
+.head6{
+    height: 8vh;
+    width: 8.5vw;
+    position: absolute;
+    left:91%;
+}
 
 a:hover{
     background-color: rgb(228, 228, 6);
