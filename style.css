@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+div{
+    margin: 0%;
+    padding: 0%;
+    background-color:hsl(212, 29%, 10%);
+}
+
+.head1{
+    height: 8vh;
+    width: 8.5vw;
+}
+
+.head2{
+    height: 8vh;
+    width:10vw;
+}
+
+.head3{
+    height: 5%;
+    width: 60%;
+    position: absolute;
+    bottom: 93%;
+    left: 20%;
+}
+
+.head4{
+    height: 8vh;
+    width: 10vw;
+    position: absolute;
+    left: 80%;
+}
+
+.head5{
+    height: 8vh;
+    width: 8.5vw;
+    position: absolute;
+    left: 90%;
+}
+
+
+
+a:hover{
+    background-color: rgb(228, 228, 6);
+}
+ul{
+    display: flex;
+    justify-content: baseline;
+    list-style-type: none;
+}
+li{
+    color: white;
+    padding: 1%;
+}
+
