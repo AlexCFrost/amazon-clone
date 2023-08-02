@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+div{
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid red;
+    background-color:hsl(212, 29%, 10%);
+}
+.head1{
+    height: 8vh;
+    width: 8.5vw;
+}
+.head2{
+    height: 8vh;
+    width:10vw;
+}
+.head3{
+    height: 5%;
+    width: 50%;
+    position: absolute;
+    bottom: 93%;
+    left: 20%;
+}

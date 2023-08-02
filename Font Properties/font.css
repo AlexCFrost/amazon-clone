@@ -1,0 +1,34 @@
+.fp{
+    font-family: Verdana;
+}
+.fp1{
+    font-style: italic;
+}
+
+.fp3{
+    font-variant: normal;
+}
+.fp4{
+    font-variant: small-caps;
+}
+.fp5{
+    font-variant:inherit;
+}
+.fp6{
+    font-weight: lighter;
+}
+.fp7{
+    font-weight: bolder;
+}
+.fp8{
+    font-weight: 700;
+}
+.fp9{
+    font-size: medium;
+}
+.fp10{
+    font-size: xx-small;
+}
+.fp11{
+    font-size: 30px;
+}
