@@ -1,65 +1,95 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(images/backgroundpic.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+.main{
+  display: flex;
+  flex-direction: column;
 }
 
-.head{
-    margin: 0%;
-    padding: 0%;
-    background-color:hsl(212, 29%, 10%);
-}
-.background{
-    background-color:hsl(212, 29%, 10%);
+@media (max-width:550px) {
+  .background{
+    display: none;
+  }
 }
 
-.head1{
-    height: 8vh;
-    width: 8.5vw;
+
+.head {
+  /* display: flex; */
+  background-color: hsl(212, 29%, 10%);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.background {
+  background-color: hsl(212, 29%, 10%);
 }
 
-.head2{
-    height: 8vh;
-    width:10vw;
+.navi{
+  display: flexbox;
+ flex-direction: column;
 }
 
-.head3{
-    height: 5%;
-    width: 60%;
-    position: absolute;
-    bottom: 93%;
-    left: 20%;
-}
-.head4{
-    position: absolute;
-    left:81.5% ;
-    top: 2.8%;
+.head1 { 
+  height: 8vh;
+  width: 8.5vw;
+  display: flexbox;
 }
 
-.head5{
-    height: 8vh;
-    width: 8.5vw;
-    position: absolute;
-    left:84%;
+.head2 {
+  height: 8vh;
+  width: 10vw;
+  display: flexbox;
 }
 
-.head6{
-    height: 8vh;
-    width: 8.5vw;
-    position: absolute;
-    left:91%;
+.head3 {
+  height: 5%;
+  width: 60%;
+  display: flexbox;
+  position: absolute;
+  bottom: 93%;
+  left: 20%;
+}
+.head4 {
+  display: flexbox;
+  position: absolute;
+  left: 81.5%;
+  top: 2.8%;
 }
 
-a:hover{
-    background-color: rgb(228, 228, 6);
-}
-ul{
-    display: flex;
-    justify-content: baseline;
-    list-style-type: none;
-}
-li{
-    color: white;
-    padding: 1%;
+.head5 {
+  display: flexbox;
+  height: 8vh;
+  width: 8.5vw;
+  position: absolute;
+  left: 84%;
 }
 
+.head6 {
+  display: flexbox;
+  height: 8vh;
+  width: 8.5vw;
+  position: absolute;
+  left: 91%;
+}
+
+a:hover {
+  background-color: rgb(228, 228, 6);
+}
+ul {
+  display:flex;
+  justify-content: baseline;
+  list-style-type: none;
+}
+li {
+  color: white;
+  padding: 0.5%;
+}
