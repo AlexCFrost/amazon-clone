@@ -12,3 +12,6 @@ Use color picker extensions link [colorpick-eyedropper](https://chrome.google.co
 The font used: Cabin
 
 If you need more icons you can visit [flaticons.com](https://www.flaticon.com/)
+
+Here is the expected output
+![Screenshot (24)](https://github.com/AlexCFrost/amazon-clone-boilerplate/assets/139672610/a78e92df-7304-4d6d-9424-02c4b247a4b1)
