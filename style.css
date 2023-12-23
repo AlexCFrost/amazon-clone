@@ -81,9 +81,6 @@ body{
   }
 }
 
-
-
-
 @media (390px< width <500px){
   .toogle,.loc,p,.flag,.search-icon,.lion{
       display: none;
