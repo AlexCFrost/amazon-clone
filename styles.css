@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('/Images/backgroundpic.png');
+  background-size: auto auto;
+  background-position-y: 60px;
+  background-repeat: no-repeat;
+}
+
+.amazon-nav {
+  background-color: #131921;
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.amazon-logo img {
+  height: 40px;
+}
+
+.amazon-search input {
+  padding: 1px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.amazon-search button {
+  padding: 8px 12px;
+  background-color: #f0c14b;
+  border: 1px solid #a88734;
+  border-radius: 3px;
+  color: #111;
+  cursor: pointer;
+}
+
+.amazon-links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.amazon-links {
+  display: flex;
+}
+
+.amazon-account a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.amazon-menu-toggle {
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .amazon-menu-toggle {
+    display: block;
+  }
+
+  .amazon-links {
+    display: none;
+    flex-direction: column;
+    background-color: #131921;
+    padding: 20px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+  }
+
+  .amazon-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px 0;
+  }
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  input[type="checkbox"]:checked ~ .amazon-links {
+    display: flex;
+  }
+}
